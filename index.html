@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS NA VEIA | Edição 02 - Supervisão de CS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Oswald', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            500: '#ff5a00', // Laranja G30
+                            600: '#e04f00',
+                            900: '#1a1a1a', // Quase Preto
+                        },
+                        dark: '#0f0f11'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color: #f4f4f5; }
+        .mag-divider { height: 8px; background: repeating-linear-gradient(45deg, #ff5a00, #ff5a00 10px, #0f0f11 10px, #0f0f11 20px); }
+    </style>
+</head>
+<body class="text-gray-900 antialiased selection:bg-brand-500 selection:text-white">
+
+    <!-- Header G30 Style -->
+    <header class="bg-dark text-white py-12 px-6 sm:px-16 border-b-8 border-brand-500 relative overflow-hidden">
+        <div class="absolute top-[-50px] right-[-50px] w-64 h-64 bg-brand-500 rounded-full blur-[100px] opacity-30"></div>
+        <div class="max-w-5xl mx-auto relative z-10">
+            <span class="inline-block px-3 py-1 bg-brand-500 text-white font-black uppercase tracking-widest text-xs mb-4 shadow-[2px_2px_0px_#fff]">Edição 02 | Leadership & Execution</span>
+            <h1 class="text-5xl sm:text-7xl font-display font-black uppercase tracking-tighter leading-none mb-4">
+                CS <span class="text-brand-500">NA VEIA</span>
+            </h1>
+            <p class="text-xl sm:text-2xl text-gray-400 font-bold uppercase tracking-wide border-l-4 border-brand-500 pl-4">
+                O Playbook Tático da Supervisora de Customer Success
+            </p>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto py-12 px-6 sm:px-16 bg-white shadow-2xl">
+        
+        <article>
+            <!-- Seção 1: Introdução G30 -->
+            <section class="mb-16">
+                <h2 class="text-3xl sm:text-4xl font-black text-dark mb-6 uppercase tracking-tight border-b-4 border-brand-500 pb-2 inline-block">
+                    A Engrenagem que Faz a Máquina Rodar
+                </h2>
+                
+                <p class="text-lg text-gray-800 mb-6 leading-relaxed font-medium">
+                    Se o Gerente de Customer Success (CSM) é o maestro que orquestra o valor para o cliente, a **Supervisora de CS** é a diretora de operações que garante que o teatro não pegue fogo. No mercado SaaS acelerado, a transição de um contribuidor individual para a liderança de linha de frente exige uma mudança radical de mentalidade: o foco deixa de ser "como eu salvo este cliente" e passa a ser "como eu construo um time capaz de salvar centenas de clientes".
+                </p>
+
+                <!-- Box de Destaque G30 -->
+                <div class="bg-brand-500 text-white p-6 sm:p-8 rounded-none mb-8 shadow-[8px_8px_0px_#0f0f11] relative">
+                    <h3 class="text-2xl font-black mb-4 uppercase tracking-wide text-dark">Liderança no Método G30</h3>
+                    <p class="text-lg font-bold leading-relaxed">
+                        Dentro do Ecossistema G30 (Inteligência Automotiva e Educação), a Supervisora de CS é a guardiã implacável da execução. Ela não microgerencia planilhas; ela audita qualidade, destrava gargalos operacionais e atua como a última linha de defesa (Save Desk) em contas estratégicas. A supervisão garante que a promessa de transformação vendida lá atrás vire rotina e NRR (Net Revenue Retention) na veia da companhia.
+                    </p>
+                </div>
+
+                <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                    A função da liderança tática de CS é transformar o conhecimento tribal em escala. Sem uma supervisão forte, processos se perdem, Playbooks viram documentos mortos na gaveta, e o burnout contamina a equipe. Este material documenta a rotina, as competências e os ritos inegociáveis para quem lidera o batalhão de retenção e expansão.
+                </p>
+            </section>
+
+            <div class="mag-divider mb-16"></div>
+
+            <!-- Seção 2: O Profissional -->
+            <section class="mb-16">
+                <span class="text-brand-500 font-bold uppercase tracking-widest text-xs mb-2 block">01. A Líder</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-dark mb-8 uppercase tracking-tight">Anatomia da Supervisora de Alta Performance</h2>
+                
+                <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+                    O maior erro da transição para a supervisão é tentar ser o "Super CSM". A Supervisora não está lá para fazer o trabalho da equipe, mas para criar as condições perfeitas para que a equipe execute com excelência. Suas ferramentas mudam: saem as ligações de adoção, entram as auditorias, os rituais de feedback, o capacity planning e a gestão de crises (escalonamento).
+                </p>
+
+                <div class="bg-dark text-white p-6 sm:p-8 mb-8 border-l-8 border-brand-500">
+                    <h3 class="text-2xl font-black text-brand-500 mb-4 uppercase">Hard Skills & Soft Skills da Liderança</h3>
+                    <p class="text-base text-gray-300 mb-4 leading-relaxed">
+                        Nas <strong>Hard Skills</strong>, a Supervisora precisa dominar a engenharia de capacidade (Capacity Planning) e o funil de dados (Pipeline Management). Ela deve olhar para o dashboard e saber exatamente se a Squad vai bater a meta de GRR no trimestre, antes mesmo do mês virar. Precisa ser perita em <em>Forecasting</em> de churn e auditoria de processos (QA).
+                    </p>
+                    <p class="text-base text-gray-300 mb-4 leading-relaxed">
+                        Nas <strong>Soft Skills</strong>, a Inteligência Emocional e a Mentoria (Coaching) são os pilares. A supervisora lida diariamente com a ansiedade da equipe e a fúria de clientes críticos. Ela precisa ter pulso firme para cobrar aderência ao playbook, mas empatia cirúrgica para desenvolver analistas juniores e transformá-los em consultores estratégicos.
+                    </p>
+                    <p class="text-base text-white leading-relaxed font-bold bg-white/10 p-4 border border-white/20">
+                        O verdadeiro teste da Supervisora é o "Save Desk": a habilidade de entrar em uma negociação quase perdida, desarmar o cliente detrato e reverter um cancelamento de alto impacto (Escalation Management).
+                    </p>
+                </div>
+            </section>
+
+            <!-- Seção 3: Rotinas e Operação -->
+            <section class="mb-16">
+                <span class="text-brand-500 font-bold uppercase tracking-widest text-xs mb-2 block">02. Execução da Liderança</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-dark mb-6 uppercase tracking-tight">Rituais da Máquina de Retenção</h2>
+                
+                <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                    Um CSM desorganizado perde um cliente; uma Supervisora desorganizada perde um trimestre inteiro. A rotina da liderança não pode ser pautada por apagar incêndios. Ela precisa de uma agenda blindada para desenvolver a equipe e monitorar os sinais vitais da operação.
+                </p>
+
+                <h3 class="text-2xl font-black text-dark mt-10 mb-4 uppercase">Matriz de Gestão de Squad</h3>
+                
+                <!-- Tabela Estilo Growth -->
+                <div class="overflow-x-auto my-8 border-4 border-dark">
+                    <table class="min-w-full bg-white">
+                        <thead class="bg-dark text-white border-b-4 border-brand-500">
+                            <tr>
+                                <th class="text-left py-4 px-6 font-black uppercase tracking-wide w-1/4">Frequência</th>
+                                <th class="text-left py-4 px-6 font-black uppercase tracking-wide w-3/4">Entregas e Foco da Supervisão</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y-2 divide-gray-200 text-gray-800">
+                            <tr class="hover:bg-orange-50 transition-colors">
+                                <td class="py-4 px-6 font-black text-brand-600 align-top uppercase">Diária</td>
+                                <td class="py-4 px-6 align-top font-medium">Daily Stand-up (15 min) com a Squad. Monitoramento de SLAs da equipe (tempo de resposta, tickets represados). Atuação no "Save Desk" (clientes zona vermelha escalonados). Revisão do termômetro de Health Score agregado.</td>
+                            </tr>
+                            <tr class="hover:bg-orange-50 transition-colors">
+                                <td class="py-4 px-6 font-black text-brand-600 align-top uppercase">Semanal</td>
+                                <td class="py-4 px-6 align-top font-medium"><strong>Reuniões de 1:1</strong> focadas em desenvolvimento tático e mental do CSM. Auditoria de qualidade (QA) de ligações e e-mails (Call Listening). Reunião de Pipeline (Forecast de Churn e Upsell) para projetar o fechamento do mês.</td>
+                            </tr>
+                            <tr class="hover:bg-orange-50 transition-colors">
+                                <td class="py-4 px-6 font-black text-brand-600 align-top uppercase">Mensal</td>
+                                <td class="py-4 px-6 align-top font-medium">Fechamento de metas e apuração de bônus da Squad. Análise de Balanceamento de Carteira (Capacity): remanejar contas para evitar burnout de CSMs sobrecarregados. Alinhamento interáreas (Vendas e Suporte) sobre atrito no Handoff.</td>
+                            </tr>
+                            <tr class="hover:bg-orange-50 transition-colors">
+                                <td class="py-4 px-6 font-black text-brand-600 align-top uppercase">Trimestral</td>
+                                <td class="py-4 px-6 align-top font-medium">Performance Review individual da equipe. Planejamento de OKRs e metas de NRR/GRR para o próximo trimestre. Revisão e atualização dos Playbooks com base nos gargalos identificados.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Seção 4: Playbooks -->
+            <section class="mb-16 bg-zinc-100 p-6 sm:p-10 border-l-8 border-brand-500">
+                <span class="text-brand-500 font-bold uppercase tracking-widest text-xs mb-2 block">03. Orquestração Tática</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-dark mb-6 uppercase tracking-tight">Os Playbooks da Liderança</h2>
+                
+                <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+                    Enquanto os CSMs rodam playbooks de Onboarding e Adoção, a Supervisora roda playbooks de <strong>Governança de Equipe</strong>. Seu foco é garantir a padronização, a qualidade da entrega e a escalabilidade.
+                </p>
+
+                <div class="space-y-6">
+                    <!-- Playbook Card -->
+                    <div class="bg-white p-6 shadow-sm border border-gray-200 hover:-translate-y-1 transition-transform">
+                        <h3 class="text-2xl font-black text-dark mb-3 uppercase flex items-center gap-3">
+                            <span class="bg-brand-500 text-white w-10 h-10 flex items-center justify-center text-xl font-black">1</span> 
+                            Coaching & Quality Assurance (QA)
+                        </h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            Ouvir gravações de Kickoffs e QBRs não é microgerenciamento, é calibração. A supervisora deve avaliar se o CSM está focando em "funcionalidades de sistema" ou em "valor de negócio e ROI". O feedback deve ser estruturado (O que foi bom, o que faltou, o que mudar na próxima call) e documentado na 1:1.
+                        </p>
+                    </div>
+
+                    <!-- Playbook Card -->
+                    <div class="bg-white p-6 shadow-sm border border-gray-200 hover:-translate-y-1 transition-transform">
+                        <h3 class="text-2xl font-black text-dark mb-3 uppercase flex items-center gap-3">
+                            <span class="bg-brand-500 text-white w-10 h-10 flex items-center justify-center text-xl font-black">2</span> 
+                            Gestão de Escalonamento (Save Desk)
+                        </h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            Quando o cliente corporativo ameaça cancelar de forma abrupta e o CSM perde a governança política da conta. O gatilho é imediato: a Supervisora assume a frente da negociação com o patrocinador executivo (Sponsor) da conta, desenha um plano de contingência e blinda a receita da empresa.
+                        </p>
+                    </div>
+
+                    <!-- Playbook Card -->
+                    <div class="bg-white p-6 shadow-sm border border-gray-200 hover:-translate-y-1 transition-transform">
+                        <h3 class="text-2xl font-black text-dark mb-3 uppercase flex items-center gap-3">
+                            <span class="bg-brand-500 text-white w-10 h-10 flex items-center justify-center text-xl font-black">3</span> 
+                            Ramp-up de Novos Talentos
+                        </h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            O tempo que um novo CSM demora para entregar valor (Time to Productivity) dita o custo da operação. A supervisora orquestra o Shadowing (CSM novato como ouvinte), o Reverse Shadowing (Supervisora ouvindo o CSM novato) e as simulações práticas (Role-plays) antes de soltar a primeira conta real na mão do talento.
+                        </p>
+                    </div>
+
+                    <!-- Playbook Card -->
+                    <div class="bg-white p-6 shadow-sm border border-gray-200 hover:-translate-y-1 transition-transform">
+                        <h3 class="text-2xl font-black text-dark mb-3 uppercase flex items-center gap-3">
+                            <span class="bg-brand-500 text-white w-10 h-10 flex items-center justify-center text-xl font-black">4</span> 
+                            Capacity Planning & Distribuição de Carteira
+                        </h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            Contas não têm o mesmo peso. A supervisora deve equilibrar a balança distribuindo contas baseadas não apenas em número, mas em complexidade (ARR, esforço técnico, saúde atual). Um CSM júnior não recebe a conta mais complexa em vermelho; ele gerencia volume saudável.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção 5: Analytics -->
+            <section class="mb-16">
+                <span class="text-brand-500 font-bold uppercase tracking-widest text-xs mb-2 block">04. Analytics da Liderança</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-dark mb-6 uppercase tracking-tight">O Painel de Controle da Supervisora</h2>
+                
+                <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                    Enquanto o CSM olha para a saúde do cliente, a Supervisora olha para a saúde da máquina. Seu dashboard (no Gainsight, SenseData ou BI) deve responder instantaneamente a três perguntas: Quem vamos perder? Quem vamos expandir? Quem da equipe está sobrecarregado?
+                </p>
+
+                <!-- Tabela Estilo Growth -->
+                <div class="overflow-x-auto my-8 border-4 border-dark">
+                    <table class="min-w-full bg-white">
+                        <thead class="bg-dark text-white border-b-4 border-brand-500">
+                            <tr>
+                                <th class="text-left py-4 px-6 font-black uppercase w-1/4">KPI de Liderança</th>
+                                <th class="text-left py-4 px-6 font-black uppercase w-1/2">O que Mede</th>
+                                <th class="text-center py-4 px-6 font-black uppercase w-1/4">Visão</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y-2 divide-gray-200 text-gray-800">
+                            <tr>
+                                <td class="py-4 px-6 font-bold text-dark align-top">Pipeline de Risco (Churn Forecast)</td>
+                                <td class="py-4 px-6 align-top">Mapeamento semanal de toda receita (MRR) que está nas faixas amarela e vermelha, atrelada à probabilidade de cancelamento.</td>
+                                <td class="py-4 px-6 text-center font-black text-brand-500 align-middle">Defesa (Salvar)</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4 px-6 font-bold text-dark align-top">NRR / GRR da Squad</td>
+                                <td class="py-4 px-6 align-top">O atingimento das metas financeiras globais (Retenção Bruta e Líquida) quebradas por time. O balanço final da supervisão.</td>
+                                <td class="py-4 px-6 text-center font-black text-brand-500 align-middle">Valuation</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4 px-6 font-bold text-dark align-top">Aderência aos Playbooks (SLAs)</td>
+                                <td class="py-4 px-6 align-top">Percentual de tarefas críticas concluídas no prazo (Ex: EBRs feitas no trimestre, Onboardings entregues em &lt; 30 dias).</td>
+                                <td class="py-4 px-6 text-center font-black text-brand-500 align-middle">Processo</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4 px-6 font-bold text-dark align-top">CSM Activity & Sentiment Score</td>
+                                <td class="py-4 px-6 align-top">Volume de interações vs. relatos na 1:1 para prever o risco de burnout e rotatividade (turnover) do próprio time de CS.</td>
+                                <td class="py-4 px-6 text-center font-black text-brand-500 align-middle">Pessoas</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Seção 6: IA & Futuro -->
+            <section class="mt-16 pt-16 border-t-8 border-dark">
+                <span class="text-brand-500 font-bold uppercase tracking-widest text-xs mb-2 block">05. Vanguarda Tecnológica</span>
+                <h2 class="text-4xl sm:text-5xl font-black text-dark mb-8 uppercase tracking-tight">
+                    Supervisão Aumentada por I.A.
+                </h2>
+                <p class="text-xl text-gray-800 font-medium leading-relaxed mb-6">
+                    O maior desafio da Supervisora sempre foi a escalabilidade do Coaching. Era fisicamente impossível ouvir as gravações de todas as ligações de 10 CSMs. A Inteligência Artificial resolveu essa equação.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    Com plataformas de **Conversational Intelligence** (Gong, MeetGeek, Chorus), a Supervisora do Ecossistema G30 não precisa mais ouvir horas de ligações. A IA transcreve, analisa o sentimento, calcula o "Talk Ratio" (quanto o CSM falou vs. o cliente) e levanta <em>Red Flags</em> automáticas se o CSM ignorou uma objeção ou foi submisso em uma negociação de renovação.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed font-bold border-l-4 border-brand-500 pl-4 py-2 bg-gray-100">
+                    A líder moderna de CS opera como um técnico de Fórmula 1 no pit wall: ela usa a telemetria ao vivo da IA para ajustar a estratégia da equipe, destravar obstáculos operacionais e garantir que a máquina de crescimento do Método G30 rode em sua capacidade máxima.
+                </p>
+            </section>
+        </article>
+
+    </main>
+
+    <!-- Footer Call to Action G30 -->
+    <footer class="bg-brand-500 text-dark py-16 px-6 text-center border-t-8 border-dark mt-16">
+        <div class="max-w-2xl mx-auto">
+            <h4 class="text-4xl font-display font-black uppercase mb-4 tracking-tighter">Liderança na Linha de Frente.</h4>
+            <p class="text-dark font-bold text-lg mb-8">Receba os playbooks táticos de Gestão e Operação, forjados nas trincheiras das empresas que mais crescem.</p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <input type="email" placeholder="SEU MELHOR E-MAIL" class="px-6 py-4 w-full sm:w-96 bg-white text-dark placeholder-gray-500 font-bold uppercase focus:outline-none border-4 border-dark">
+                <button class="w-full sm:w-auto bg-dark text-white font-black uppercase px-8 py-4 tracking-widest hover:bg-gray-900 transition-colors shadow-[4px_4px_0px_#fff]">Assinar Agora</button>
+            </div>
+            
+            <p class="mt-12 text-sm font-black tracking-widest uppercase text-dark/70">&copy; 2026 G30 NA VEIA | INTELIGÊNCIA E EDUCAÇÃO AUTOMOTIVA</p>
+        </div>
+    </footer>
+
+</body>
+</html>
